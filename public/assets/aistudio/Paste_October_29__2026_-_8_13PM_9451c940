@@ -1,0 +1,413 @@
+>>> %Run -c $EDITOR_CONTENT
+
+MPY: soft reboot
+=================================================================
+  ESP32-CAM + MAX30102 Precision Vital Signs Monitor
+  Calibrated to: 60 BPM | 99% SpO2 Ground Truth
+=================================================================
+Connecting to MAX30102 on SCL=GPIO 14, SDA=GPIO 13 ...
+[OK] MAX30102 Part ID: 0x15
+
+[READY] Place your thumb pad lightly over the MAX30102 sensor.
+Rest gently (do NOT press down hard). Baseline locking in 3-5 sec...
+
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 55507)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 98089)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 110400)
+|                     #|    -- BPM  |  --.-% SpO2 <3 BEAT #1! (IR: 111025)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 111759)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 115480)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 119952)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 121594)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 121442)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 125308)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 129261)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130107)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130301)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130277)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130345)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130351)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130382)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130425)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130437)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130316)
+|                #     |    -- BPM  |  --.-% SpO2              (IR: 130279)
+|              #       |    -- BPM  |  --.-% SpO2              (IR: 130277)
+|              #       |    -- BPM  |  --.-% SpO2              (IR: 130311)
+|             #        |    -- BPM  |  --.-% SpO2              (IR: 130269)
+|             #        |    -- BPM  |  --.-% SpO2              (IR: 130331)
+|                #     |    -- BPM  |  --.-% SpO2              (IR: 130413)
+|                  #   |    -- BPM  |  --.-% SpO2              (IR: 130435)
+|                    # |    -- BPM  |  --.-% SpO2              (IR: 130490)
+|                    # |    -- BPM  |  --.-% SpO2 <3 BEAT #2! (IR: 130498)
+|                    # |    -- BPM  |  --.-% SpO2              (IR: 130515)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130557)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130583)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130614)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130607)
+|                   #  |    -- BPM  |  --.-% SpO2              (IR: 130588)
+|                  #   |    -- BPM  |  --.-% SpO2              (IR: 130601)
+|                  #   |    -- BPM  |  --.-% SpO2              (IR: 130620)
+|                   #  |    -- BPM  |  --.-% SpO2              (IR: 130691)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130759)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130821)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130878)
+|                     #|    -- BPM  |  --.-% SpO2              (IR: 130919)
+|                     #|  55.6 BPM | 99.3% SpO2 <3 BEAT #3! (IR: 130899)
+|                     #|  55.6 BPM | 99.3% SpO2              (IR: 130892)
+|                     #|  55.6 BPM | 99.3% SpO2              (IR: 130881)
+|                     #|  55.6 BPM | 99.3% SpO2              (IR: 130916)
+|                     #|  55.6 BPM | 99.3% SpO2              (IR: 130925)
+|                    # |  55.6 BPM | 99.3% SpO2              (IR: 130926)
+|                   #  |  55.6 BPM | 99.3% SpO2              (IR: 130921)
+|                   #  |  55.6 BPM | 99.3% SpO2              (IR: 130951)
+|                   #  |  55.6 BPM | 99.3% SpO2              (IR: 130969)
+|                   #  |  55.6 BPM | 99.3% SpO2              (IR: 131003)
+|                 #    |  61.4 BPM | 99.3% SpO2 <3 BEAT #4! (IR: 130929)
+|   #                  |  61.4 BPM | 99.3% SpO2              (IR: 130581)
+|#                     |  61.4 BPM | 99.3% SpO2              (IR: 130621)
+|#                     |  61.4 BPM | 99.3% SpO2              (IR: 130601)
+|#                     |  61.4 BPM | 99.3% SpO2              (IR: 130555)
+|#                     |  61.4 BPM | 99.3% SpO2              (IR: 130557)
+| #                    |  61.4 BPM | 99.3% SpO2              (IR: 130596)
+|    #                 |  61.4 BPM | 99.3% SpO2              (IR: 130636)
+|      #               |  61.4 BPM | 99.3% SpO2              (IR: 130662)
+|         #            |  61.4 BPM | 99.3% SpO2              (IR: 130704)
+|           #          |  61.4 BPM | 99.3% SpO2              (IR: 130724)
+|            #         |  61.4 BPM | 99.3% SpO2              (IR: 130743)
+|              #       |  61.4 BPM | 99.3% SpO2              (IR: 130785)
+|               #      |  61.4 BPM | 99.3% SpO2              (IR: 130795)
+|               #      |  61.4 BPM | 99.3% SpO2              (IR: 130805)
+|               #      |  61.4 BPM | 99.3% SpO2              (IR: 130818)
+|               #      |  59.9 BPM | 99.4% SpO2 <3 BEAT #5! (IR: 130818)
+|              #       |  59.9 BPM | 99.4% SpO2              (IR: 130794)
+|             #        |  59.9 BPM | 99.4% SpO2              (IR: 130794)
+|             #        |  59.9 BPM | 99.4% SpO2              (IR: 130815)
+|              #       |  59.9 BPM | 99.4% SpO2              (IR: 130849)
+|               #      |  59.9 BPM | 99.4% SpO2              (IR: 130855)
+|                #     |  59.9 BPM | 99.4% SpO2              (IR: 130887)
+|                 #    |  59.9 BPM | 99.4% SpO2              (IR: 130941)
+|                  #   |  59.9 BPM | 99.4% SpO2              (IR: 130971)
+|                   #  |  59.9 BPM | 99.4% SpO2              (IR: 131006)
+|                    # |  59.9 BPM | 99.4% SpO2              (IR: 131049)
+|                     #|  59.9 BPM | 99.4% SpO2              (IR: 131082)
+|                     #|  60.6 BPM | 99.4% SpO2 <3 BEAT #6! (IR: 131088)
+|                    # |  60.6 BPM | 99.4% SpO2              (IR: 131092)
+|                  #   |  60.6 BPM | 99.4% SpO2              (IR: 131044)
+|                #     |  60.6 BPM | 99.4% SpO2              (IR: 131052)
+|                #     |  60.6 BPM | 99.4% SpO2              (IR: 131066)
+|                #     |  60.6 BPM | 99.4% SpO2              (IR: 131077)
+|                #     |  60.6 BPM | 99.4% SpO2              (IR: 131097)
+|                #     |  60.6 BPM | 99.4% SpO2              (IR: 131114)
+|                 #    |  60.6 BPM | 99.4% SpO2              (IR: 131148)
+|                 #    |  60.6 BPM | 99.4% SpO2              (IR: 131166)
+|                 #    |  61.1 BPM | 99.5% SpO2 <3 BEAT #7! (IR: 131168)
+|                 #    |  61.1 BPM | 99.5% SpO2              (IR: 131169)
+|                  #   |  61.1 BPM | 99.5% SpO2              (IR: 131198)
+|                  #   |  61.1 BPM | 99.5% SpO2              (IR: 131205)
+|                  #   |  61.1 BPM | 99.5% SpO2              (IR: 131238)
+|                 #    |  61.1 BPM | 99.5% SpO2              (IR: 131214)
+|                #     |  61.1 BPM | 99.5% SpO2              (IR: 131218)
+|               #      |  61.1 BPM | 99.5% SpO2              (IR: 131228)
+|               #      |  61.1 BPM | 99.5% SpO2              (IR: 131220)
+|              #       |  61.1 BPM | 99.5% SpO2              (IR: 131231)
+|               #      |  61.1 BPM | 99.5% SpO2              (IR: 131251)
+|               #      |  64.5 BPM | 99.5% SpO2 <3 BEAT #8! (IR: 131248)
+|               #      |  64.5 BPM | 99.5% SpO2              (IR: 131263)
+|               #      |  64.5 BPM | 99.5% SpO2              (IR: 131285)
+|               #      |  64.5 BPM | 99.5% SpO2              (IR: 131290)
+|               #      |  64.5 BPM | 99.5% SpO2              (IR: 131300)
+|                #     |  64.5 BPM | 99.5% SpO2              (IR: 131340)
+|                 #    |  64.5 BPM | 99.5% SpO2              (IR: 131365)
+|                 #    |  64.5 BPM | 99.5% SpO2              (IR: 131388)
+|                 #    |  64.5 BPM | 99.5% SpO2              (IR: 131372)
+|                #     |  64.5 BPM | 99.5% SpO2              (IR: 131368)
+|               #      |  64.5 BPM | 99.5% SpO2              (IR: 131364)
+|               #      |  64.5 BPM | 99.5% SpO2              (IR: 131399)
+|                #     |  64.5 BPM | 99.5% SpO2              (IR: 131409)
+|                #     |  64.0 BPM | 99.6% SpO2 <3 BEAT #9! (IR: 131408)
+|                #     |  64.0 BPM | 99.6% SpO2              (IR: 131430)
+|                 #    |  64.0 BPM | 99.6% SpO2              (IR: 131472)
+|                 #    |  64.0 BPM | 99.6% SpO2              (IR: 131475)
+|                 #    |  64.0 BPM | 99.6% SpO2              (IR: 131501)
+|                 #    |  64.0 BPM | 99.6% SpO2              (IR: 131501)
+|                 #    |  64.0 BPM | 99.6% SpO2              (IR: 131520)
+|                #     |  64.0 BPM | 99.6% SpO2              (IR: 131505)
+|                #     |  64.0 BPM | 99.6% SpO2              (IR: 131532)
+|                #     |  66.8 BPM | 99.6% SpO2 <3 BEAT #10! (IR: 131528)
+|              #       |  66.8 BPM | 99.6% SpO2              (IR: 131485)
+|            #         |  66.8 BPM | 99.6% SpO2              (IR: 131474)
+|           #          |  66.8 BPM | 99.6% SpO2              (IR: 131449)
+|          #           |  66.8 BPM | 99.6% SpO2              (IR: 131427)
+|         #            |  66.8 BPM | 99.6% SpO2              (IR: 131431)
+|          #           |  66.8 BPM | 99.6% SpO2              (IR: 131458)
+|           #          |  66.8 BPM | 99.6% SpO2              (IR: 131458)
+|          #           |  66.8 BPM | 99.6% SpO2              (IR: 131447)
+|          #           |  66.8 BPM | 99.6% SpO2              (IR: 131456)
+|           #          |  66.8 BPM | 99.6% SpO2              (IR: 131461)
+|            #         |  66.8 BPM | 99.6% SpO2              (IR: 131487)
+|             #        |  66.8 BPM | 99.6% SpO2              (IR: 131519)
+|             #        |  68.8 BPM | 99.6% SpO2 <3 BEAT #11! (IR: 131516)
+|           #          |  68.8 BPM | 99.6% SpO2              (IR: 131456)
+|         #            |  68.8 BPM | 99.6% SpO2              (IR: 131410)
+|        #             |  68.8 BPM | 99.6% SpO2              (IR: 131408)
+|        #             |  68.8 BPM | 99.6% SpO2              (IR: 131404)
+|        #             |  68.8 BPM | 99.6% SpO2              (IR: 131414)
+|         #            |  68.8 BPM | 99.6% SpO2              (IR: 131429)
+|         #            |  68.8 BPM | 99.6% SpO2              (IR: 131432)
+|          #           |  68.8 BPM | 99.6% SpO2              (IR: 131443)
+|          #           |  68.8 BPM | 99.6% SpO2              (IR: 131430)
+|          #           |  68.8 BPM | 99.6% SpO2              (IR: 131428)
+|          #           |  68.8 BPM | 99.6% SpO2              (IR: 131443)
+|          #           |  68.8 BPM | 99.6% SpO2              (IR: 131438)
+|           #          |  68.8 BPM | 99.6% SpO2              (IR: 131451)
+|           #          |  68.8 BPM | 99.6% SpO2              (IR: 131437)
+|         #            |  68.8 BPM | 99.6% SpO2              (IR: 131378)
+|       #              |  68.8 BPM | 99.6% SpO2              (IR: 131348)
+|      #               |  68.8 BPM | 99.6% SpO2              (IR: 131333)
+|      #               |  68.8 BPM | 99.6% SpO2              (IR: 131341)
+|       #              |  68.8 BPM | 99.6% SpO2              (IR: 131339)
+|       #              |  68.8 BPM | 99.6% SpO2              (IR: 131352)
+|        #             |  68.8 BPM | 99.6% SpO2              (IR: 131342)
+|        #             |  68.8 BPM | 99.6% SpO2              (IR: 131329)
+|        #             |  68.8 BPM | 99.6% SpO2              (IR: 131322)
+|      #               |  68.8 BPM | 99.6% SpO2              (IR: 131276)
+|    #                 |  68.8 BPM | 99.6% SpO2              (IR: 131221)
+| #                    |  68.8 BPM | 99.6% SpO2              (IR: 131112)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 131053)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 130906)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 130732)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 130411)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 129617)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 126331)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 131436)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 131515)
+|                     #|  68.8 BPM | 99.6% SpO2 <3 BEAT #12! (IR: 131548)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 131187)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 131738)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 131640)
+|                    # |  68.8 BPM | 99.6% SpO2              (IR: 131463)
+|           #          |  68.8 BPM | 99.6% SpO2              (IR: 131339)
+|   #                  |  68.8 BPM | 99.6% SpO2              (IR: 131188)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 130905)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 130534)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 130284)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 130136)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 130008)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 129900)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 129674)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 129397)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 129181)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 128999)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 128403)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 127611)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 126544)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 130534)
+|#                     |  68.8 BPM | 99.6% SpO2 <3 BEAT #13! (IR: 123299)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 107136)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 88312)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 95436)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 127735)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 127174)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 127597)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 128131)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 128557)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 128737)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 128890)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129009)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129080)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129119)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129148)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129087)
+|                    # |  68.8 BPM | 99.6% SpO2              (IR: 129026)
+|               #      |  68.8 BPM | 99.6% SpO2              (IR: 128937)
+|          #           |  68.8 BPM | 99.6% SpO2              (IR: 128851)
+|     #                |  68.8 BPM | 99.6% SpO2              (IR: 128763)
+|  #                   |  68.8 BPM | 99.6% SpO2              (IR: 128731)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 128679)
+|#                     |  68.8 BPM | 99.6% SpO2              (IR: 128683)
+| #                    |  68.8 BPM | 99.6% SpO2              (IR: 128711)
+|   #                  |  68.8 BPM | 99.6% SpO2              (IR: 128702)
+|    #                 |  68.8 BPM | 99.6% SpO2              (IR: 128721)
+|    #                 |  68.8 BPM | 99.6% SpO2              (IR: 128690)
+|     #                |  68.8 BPM | 99.6% SpO2              (IR: 128719)
+|       #              |  68.8 BPM | 99.6% SpO2              (IR: 128721)
+|         #            |  68.8 BPM | 99.6% SpO2              (IR: 128760)
+|           #          |  68.8 BPM | 99.6% SpO2              (IR: 128821)
+|             #        |  68.8 BPM | 99.6% SpO2              (IR: 128837)
+|             #        |  68.8 BPM | 99.6% SpO2              (IR: 128819)
+|             #        |  68.8 BPM | 99.6% SpO2              (IR: 128844)
+|              #       |  68.8 BPM | 99.6% SpO2              (IR: 128841)
+|              #       |  68.8 BPM | 99.6% SpO2              (IR: 128863)
+|               #      |  68.8 BPM | 99.6% SpO2              (IR: 128910)
+|                #     |  68.8 BPM | 99.6% SpO2              (IR: 128932)
+|                   #  |  68.8 BPM | 99.6% SpO2              (IR: 129016)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129098)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129169)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129263)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129279)
+|                     #|  68.8 BPM | 99.6% SpO2 <3 BEAT #14! (IR: 129314)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129299)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129293)
+|                     #|  68.8 BPM | 99.6% SpO2              (IR: 129257)
+|                  #   |  68.8 BPM | 99.6% SpO2              (IR: 129201)
+|               #      |  68.8 BPM | 99.6% SpO2              (IR: 129168)
+|            #         |  68.8 BPM | 99.6% SpO2              (IR: 129154)
+|          #           |  68.8 BPM | 99.6% SpO2              (IR: 129114)
+|          #           |  68.8 BPM | 99.6% SpO2              (IR: 129127)
+|          #           |  68.8 BPM | 99.6% SpO2              (IR: 129144)
+|          #           |  68.8 BPM | 99.6% SpO2              (IR: 129132)
+|         #            |  68.8 BPM | 99.6% SpO2              (IR: 129104)
+|        #             |  68.8 BPM | 99.6% SpO2              (IR: 129085)
+|        #             |  68.8 BPM | 99.6% SpO2              (IR: 129062)
+|        #             |  68.8 BPM | 99.6% SpO2              (IR: 129105)
+|         #            |  68.8 BPM | 99.6% SpO2              (IR: 129123)
+|            #         |  68.8 BPM | 99.6% SpO2              (IR: 129192)
+|               #      |  68.8 BPM | 99.6% SpO2              (IR: 129244)
+|                #     |  67.2 BPM | 99.7% SpO2 <3 BEAT #15! (IR: 129224)
+|               #      |  67.2 BPM | 99.7% SpO2              (IR: 129237)
+|               #      |  67.2 BPM | 99.7% SpO2              (IR: 129224)
+|             #        |  67.2 BPM | 99.7% SpO2              (IR: 129191)
+|            #         |  67.2 BPM | 99.7% SpO2              (IR: 129171)
+|           #          |  67.2 BPM | 99.7% SpO2              (IR: 129169)
+|           #          |  67.2 BPM | 99.7% SpO2              (IR: 129185)
+|           #          |  67.2 BPM | 99.7% SpO2              (IR: 129179)
+|           #          |  67.2 BPM | 99.7% SpO2              (IR: 129187)
+|           #          |  67.2 BPM | 99.7% SpO2              (IR: 129199)
+|           #          |  67.2 BPM | 99.7% SpO2              (IR: 129176)
+|           #          |  67.2 BPM | 99.7% SpO2              (IR: 129197)
+|          #           |  67.2 BPM | 99.7% SpO2              (IR: 129168)
+|         #            |  67.2 BPM | 99.7% SpO2              (IR: 129153)
+|       #              |  67.2 BPM | 99.7% SpO2              (IR: 129080)
+|      #               |  67.2 BPM | 99.7% SpO2              (IR: 129062)
+|     #                |  67.2 BPM | 99.7% SpO2              (IR: 129067)
+|      #               |  67.2 BPM | 99.7% SpO2              (IR: 129065)
+|     #                |  67.2 BPM | 99.7% SpO2              (IR: 129036)
+|       #              |  67.2 BPM | 99.7% SpO2              (IR: 129083)
+|       #              |  67.2 BPM | 99.7% SpO2              (IR: 129070)
+|        #             |  67.2 BPM | 99.7% SpO2              (IR: 129052)
+|       #              |  67.2 BPM | 99.7% SpO2              (IR: 129040)
+|       #              |  67.2 BPM | 99.7% SpO2              (IR: 129021)
+|       #              |  67.2 BPM | 99.7% SpO2              (IR: 129037)
+|       #              |  67.2 BPM | 99.7% SpO2              (IR: 129015)
+|       #              |  67.2 BPM | 99.7% SpO2              (IR: 129006)
+|       #              |  67.2 BPM | 99.7% SpO2              (IR: 129025)
+|       #              |  67.2 BPM | 99.7% SpO2              (IR: 128958)
+|    #                 |  67.2 BPM | 99.7% SpO2              (IR: 128900)
+|   #                  |  67.2 BPM | 99.7% SpO2              (IR: 128868)
+| #                    |  67.2 BPM | 99.7% SpO2              (IR: 128834)
+|#                     |  67.2 BPM | 99.7% SpO2              (IR: 128783)
+|#                     |  67.2 BPM | 99.7% SpO2              (IR: 128765)
+| #                    |  67.2 BPM | 99.7% SpO2              (IR: 128796)
+|   #                  |  67.2 BPM | 99.7% SpO2              (IR: 128823)
+|     #                |  67.2 BPM | 99.7% SpO2              (IR: 128834)
+|       #              |  67.2 BPM | 99.7% SpO2              (IR: 128872)
+|           #          |  67.2 BPM | 99.7% SpO2              (IR: 128944)
+|             #        |  67.2 BPM | 99.7% SpO2              (IR: 128978)
+|                #     |  67.2 BPM | 99.7% SpO2              (IR: 129042)
+|                  #   |  67.2 BPM | 99.7% SpO2              (IR: 129067)
+|                  #   |  67.2 BPM | 99.7% SpO2 <3 BEAT #16! (IR: 129078)
+|                  #   |  67.2 BPM | 99.7% SpO2              (IR: 129090)
+|                  #   |  67.2 BPM | 99.7% SpO2              (IR: 129094)
+|                  #   |  67.2 BPM | 99.7% SpO2              (IR: 129125)
+|                  #   |  67.2 BPM | 99.7% SpO2              (IR: 129121)
+|            #         |  67.2 BPM | 99.7% SpO2              (IR: 128922)
+|#                     |  67.2 BPM | 99.7% SpO2              (IR: 127713)
+|#                     |  67.2 BPM | 99.7% SpO2              (IR: 128279)
+|#                     |  67.2 BPM | 99.7% SpO2              (IR: 53448)
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+|          --          |     -- BPM |  --.-% SpO2              [NO FINGER]
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Traceback (most recent call last):
+  File "<stdin>", line 237, in <module>
+  File "<stdin>", line 209, in main
+KeyboardInterrupt: 
+
+MPY: soft reboot

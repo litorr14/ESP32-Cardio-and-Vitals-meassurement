@@ -1,0 +1,6 @@
+{
+  "name": "ESP32-CAM Vitals Analyzer & MicroPython Lab",
+  "description": "Biomedical engineering feasibility analysis, optical physics simulator, and MicroPython firmware generator for Heart Rate, SpO2, and Blood Pressure on ESP32-CAM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
